@@ -1,0 +1,24 @@
+# Imaging data and derived images: never commit participant data or masks
+*.nii
+*.nii.gz
+*.mgz
+*.dcm
+*.mat
+bvals
+bvecs
+*.bval
+*.bvec
+*.ecclog
+
+# Pipeline working directories and outputs
+sub-*/
+*.bedpostX/
+tract/
+dti/
+provenance.log
+
+# OS / editor clutter
+.DS_Store
+.vscode/
+*.swp
+*~
